@@ -9,11 +9,11 @@ const Home = () => {
         <title>Outer Limits Design</title>
       </Head>
       <div className="page-wrapper">
-        <Header />
+        {/* <Header /> */}
         <main>
-          <h2>Hello from Outer Limits Design!</h2>
+          <img src="/images/under_construction.jpg" />
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
