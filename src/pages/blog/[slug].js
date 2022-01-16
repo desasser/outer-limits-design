@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SinglePost from '../../components/SinglePost';
 import { getPostSlugs, getPostData } from '../../utils/posts';
 
 const BlogPost = ({ postData }) => {
@@ -12,7 +13,7 @@ const BlogPost = ({ postData }) => {
       <div className='page-wrapper'>
         <Header />
         <main>
-          <pre>{JSON.stringify(postData, null, 2)}</pre>
+        <SinglePost post={postData} />
         </main>
         <Footer />
       </div>
