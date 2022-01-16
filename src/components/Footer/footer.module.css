@@ -1,0 +1,12 @@
+.footer {
+  margin-top: auto;
+  background-color: var(--primary-400);
+  color: var(--primary-500);
+  padding: 36px 0;
+}
+
+.footer-wrapper {
+  max-width: 1200px;
+  width: 88%;
+  margin: 0 auto;
+}
