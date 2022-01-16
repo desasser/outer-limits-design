@@ -11,7 +11,7 @@ const Home = () => {
       <div className="page-wrapper">
         {/* <Header /> */}
         <main>
-          <img src="/images/under_construction.jpg" />
+          <div></div>
         </main>
         {/* <Footer /> */}
       </div>
