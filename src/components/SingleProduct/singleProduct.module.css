@@ -1,0 +1,30 @@
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-image-wrapper {
+    position: relative;
+    min-height: 200px;
+    flex: 0 45%;
+    padding: 16px;
+  }
+  
+  .product-data {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-description {
+    font-size: 20px;
+    margin-bottom: auto;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .product-image-wrapper {
+      min-height: 400px;
+    }
+  }
