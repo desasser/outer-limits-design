@@ -9,7 +9,7 @@ const About = () => {
         <title>About Page</title>
       </Head>
       <div className="page-wrapper">
-        <Header bgImage="/images/featured-2.png" />
+        <Header bgImage="/images/old_bg.jpg" />
         <main>
           <h2>About Outer Limits Designs</h2>
           <p>

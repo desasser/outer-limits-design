@@ -18,7 +18,7 @@ const Product = ({ productData }) => {
                 <title>{productData.productName} // UP Boutique</title>
             </Head>
             <div className='page-wrapper'>
-                <Header bgImage={productData.productImage.url} />
+                <Header bgImage='/images/old_bg.jpg' />
                 <main>
                     <SingleProduct product={productData} />
                 </main>

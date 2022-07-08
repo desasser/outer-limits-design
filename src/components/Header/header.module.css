@@ -1,39 +1,49 @@
 .header {
-  min-height: 35vh;
+  max-width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
-  align-items: flex-start;
-  background-color: var(--primary-500);
-  background-image: url('/images/featured-1.png');
+  align-items: center;
   background-size: cover;
   background-position: center;
-  background-blend-mode: color-dodge;
-  background-attachment: local;
+  z-index: 10;
+  border-right: 1px solid #747474;
 }
 
 .header-wrapper {
-  max-width: 1200px;
-  width: 92.5%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: 100%;
+  align-content: space-between;
 }
 
 .header-logo {
-  font-family: 'Major Mono Display', monospace;
-  text-decoration: none;
-  font-size: 9rem;
-  line-height: 1;
-  letter-spacing: -12px;
-  color: var(--primary-100);
-  text-shadow: 0 0 10px var(--primary-500);
+  margin-top: 40px;
   flex: 0 100%;
-  text-align: center;
+  min-width: 200px;
+  position: relative;
+}
+
+/* .header-logo img:first-child {
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-logo:hover img:first-child {
+  transform: scale(1.1);
+} */
+
+.second-image {
+  opacity: 0.2;
+  transform: rotateX(70deg);
+  position: absolute;
+  top: 52px;
+  left: 0;
 }
 
 .header-nav {
-  background-color: var(--primary-500);
   flex: 0 100%;
   display: flex;
   flex-direction: column;
@@ -42,11 +52,12 @@
 }
 
 .header-link {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Nasalization', sans-serif;
   text-transform: lowercase;
   text-decoration: none;
-  font-size: 1.2rem;
-  display: inline-block;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  /* display: inline-block; */
   padding: 12px 24px;
   color: var(--primary-100);
   transition: all 0.25s ease-in;
@@ -56,9 +67,13 @@
 .header-link:hover,
 .header-link:active,
 .header-link:focus {
-  color: var(--primary-500);
-  background-color: var(--primary-100);
+  color: var(--light);
+  background-color: var(--dark);
 }
+
+/* .header-link-active {
+  transform: translateY(-50px);
+} */
 
 @media screen and (min-width: 768px) {
   .header-logo {
@@ -67,6 +82,7 @@
 
   .header-nav {
     flex: 0 auto;
-    flex-direction: row;
+    height: calc(100% - 200px);
+    justify-content: flex-end;
   }
 }

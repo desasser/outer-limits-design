@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import ProductList from '../components/ProductList';
+import ProductList from '../../components/ProductList';
 import { getProductList } from '../../utils/products';
 
 const Products = ({ productList }) => {
@@ -11,7 +11,7 @@ const Products = ({ productList }) => {
           <title>Products // Outer Limits Designs</title>
         </Head>
         <div className='page-wrapper'>
-          <Header bgImage={'/images/featured-3.png'} />
+          <Header bgImage={'/images/old_bg.jpg'} />
           <main>
             <ProductList products={productList} />
           </main>

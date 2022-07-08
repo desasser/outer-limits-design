@@ -11,7 +11,7 @@ const BlogPost = ({ postData }) => {
         <title>{postData.postTitle} // Outer Limits Designs</title>
       </Head>
       <div className='page-wrapper'>
-        <Header bgImage={postData.featuredImage} />
+        <Header bgImage='/images/old_bg.jpg' />
         <main>
         <SinglePost post={postData} />
         </main>

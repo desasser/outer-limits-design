@@ -1,12 +1,37 @@
 .footer {
   margin-top: auto;
-  background-color: var(--primary-400);
-  color: var(--primary-500);
+  color: var(--light);
   padding: 36px 0;
+  letter-spacing: 0.175em;
 }
 
 .footer-wrapper {
+  font-family: 'Nasalization', sans-serif;
   max-width: 1200px;
-  width: 88%;
-  margin: 0 auto;
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-buttons a {
+  padding: 5px;
+}
+
+.social-buttons a img {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  height: 30px;
+  width: 30px;
+  opacity: 0.5;
+}
+
+.social-buttons a:hover img {
+  transform: scale(1.2);
+  opacity: 1;
 }
