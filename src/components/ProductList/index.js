@@ -6,6 +6,9 @@ const ProductList = ({ products = [] }) => {
   return (
     <section className={styles["product-list"]}>
       <h2 className={styles["product-list-title"]}>Products</h2>
+      <div className={styles["product-list-alert"]}>
+        <p>At this time, sales are not enabled on this site. I am currently adding purchasing options via PayPal and/or Stripe. For now, please message me on <a href="https://www.instagram.com/outer.limits.designs/">Instagram</a> or <a href="https://www.etsy.com/shop/OuterLimitsDesigns">Etsy</a>. Thanks!</p>
+      </div>
       <div className={styles["product-list-grid"]}>
         {products.length ? (
           products.map(({ id, productName, price, productImage, slug }) => (

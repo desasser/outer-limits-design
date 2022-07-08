@@ -11,7 +11,7 @@ const Products = ({ productList }) => {
           <title>Products // Outer Limits Designs</title>
         </Head>
         <div className='page-wrapper'>
-          <Header bgImage={'/images/old_bg.jpg'} />
+          <Header />
           <main>
             <ProductList products={productList} />
           </main>

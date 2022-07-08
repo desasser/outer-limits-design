@@ -11,7 +11,7 @@ const Blog = ({ postList }) => {
         <title>Blog // Outer Limits Designs</title>
       </Head>
       <div className='page-wrapper'>
-        <Header bgImage="/images/old_bg.jpg" />
+        <Header />
         <main>
           <PostList posts={postList} />
         </main>
