@@ -67,8 +67,9 @@
 .header-link:hover,
 .header-link:active,
 .header-link:focus {
-  color: var(--light);
-  background-color: var(--dark);
+  color: var(--primary-500);
+  background: linear-gradient(90deg, var(--primary-400), #ffffff);
+  border-radius: 50%;
 }
 
 /* .header-link-active {
