@@ -2,6 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./productList.module.css";
 
+// TODO: Add conditional based on stock value
+// TODO: If 0 > || empty show image
+// TODO: If 0 show OUT OF STOCK banner and disable add to cart/checkout
+// TODO: When someone checks out, it should remove it from stock? 
+
 const ProductList = ({ products = [] }) => {
   return (
     <section className={styles["product-list"]}>

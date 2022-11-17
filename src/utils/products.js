@@ -1,21 +1,21 @@
 import { GraphQLClient } from 'graphql-request';
 
-const graphcms = new GraphQLClient(
-  'https://api-us-west-2.graphcms.com/v2/ckyq5nqka0veu01yz64md8dk3/master'
+const hygraph = new GraphQLClient(
+  'https://api-us-west-2.hygraph.com/v2/clak19w010e2z01t7f6hfhukt/master'
 );
 
 export const getProductList = async () => {
-  const { products } = await graphcms.request(
-    `{
-        products(orderBy: createdAt_DESC) {
-          productName
-          price
-          createdAt
+  const { products } = await hygraph.request(
+    `query Products {
+        products {
           id
+          price
+          productName
           slug
+          createdAt
           productImage {
-            id
             fileName
+            id
             url
             height
             width
@@ -28,7 +28,7 @@ export const getProductList = async () => {
 };
 
 export const getProductSlugs = async () => {
-  const { products } = await graphcms.request(
+  const { products } = await hygraph.request(
     `{
         products {
           id
@@ -47,7 +47,7 @@ export const getProductSlugs = async () => {
 };
 
 export const getProductData = async (productSlug) => {
-  const { product } = await graphcms.request(
+  const { product } = await hygraph.request(
     `query ProductPageQuery($productSlug: String!){
       product(where: {slug: $productSlug}) {
         productName

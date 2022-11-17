@@ -68,7 +68,7 @@
 .header-link:active,
 .header-link:focus {
   color: var(--primary-500);
-  background: linear-gradient(90deg, var(--primary-400), #ffffff);
+  background: linear-gradient(90deg, var(--primary-400t), #ffffff3d);
   border-radius: 50%;
 }
 
