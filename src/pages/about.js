@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import AboutContent from "../components/AboutContent";
+import AboutImage from "../components/AboutImage";
 
 const About = () => {
   return (
@@ -11,26 +13,9 @@ const About = () => {
       <div className="page-wrapper">
         <Header />
         <main>
-          <section className="about-wrapper">
-            <h2>About Outer Limits Designs</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-              consequatur nemo. Numquam, iste. Ducimus, saepe. Nobis recusandae
-              eligendi iusto est sequi distinctio error eveniet, unde reiciendis,
-              voluptates cumque quas tempore.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-              consequatur nemo. Numquam, iste. Ducimus, saepe. Nobis recusandae
-              eligendi iusto est sequi distinctio error eveniet, unde reiciendis,
-              voluptates cumque quas tempore.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-              consequatur nemo. Numquam, iste. Ducimus, saepe. Nobis recusandae
-              eligendi iusto est sequi distinctio error eveniet, unde reiciendis,
-              voluptates cumque quas tempore.
-            </p>
+          <section className="about-section">
+            <AboutContent />
+            <AboutImage />
           </section>
         </main>
         <Footer />

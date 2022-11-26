@@ -12,7 +12,7 @@ const ProductList = ({ products = [] }) => {
     <section className={styles["product-list"]}>
       <h2 className={styles["product-list-title"]}>Products</h2>
       <div className={styles["product-list-alert"]}>
-        <p>At this time, sales are not enabled on this site. I am currently adding purchasing options via PayPal and/or Stripe. For now, please message me on <a href="https://www.instagram.com/outer.limits.designs/">Instagram</a> or <a href="https://www.etsy.com/shop/OuterLimitsDesigns">Etsy</a>. Thanks!</p>
+        <p>At this time, sales are not enabled on this site, but I will add the ability to place orders directly soon. If you see an item on this page, it is still available for sale. For now, please message me on <a href="https://www.instagram.com/outer.limits.designs/">Instagram</a> or <a href="https://www.etsy.com/shop/OuterLimitsDesigns">Etsy</a> or you can email me at <a href = "mailto: design.outerlimits@gmail.com">design.outerlimits@gmail.com</a>. Thanks!</p>
       </div>
       <div className={styles["product-list-grid"]}>
         {products.length ? (

@@ -1,0 +1,7 @@
+.about-wrapper {
+    padding:  var(--padding-page-top) var(--padding-page-side);
+}
+
+.about-wrapper-body {
+    padding: var(--padding-content);
+}

@@ -17,6 +17,9 @@
   --dark: #000000;
 
   --padding-product: 5px;
+  --padding-page-top: 40px;
+  --padding-page-side: 80px;
+  --padding-content: 20px;
 }
 
 html,
@@ -125,4 +128,10 @@ h6 {
   max-width: calc(100vw - 318px);
   width: 88%;
   margin-left: 300px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
