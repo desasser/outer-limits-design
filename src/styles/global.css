@@ -20,6 +20,10 @@
   --padding-page-top: 40px;
   --padding-page-side: 80px;
   --padding-content: 20px;
+  --padding-nav-vert: 16px;
+  --padding-nav-horiz: 24px;
+
+  --margin-nav-vert: 12px;
 }
 
 html,

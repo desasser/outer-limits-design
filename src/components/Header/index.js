@@ -12,17 +12,13 @@ const navItems = [
     label: 'About',
   },
   {
-    path: '/contact',
-    label: 'Contact',
-  },
-  {
     path: '/faq',
     label: 'FAQ',
   },
-  {
-    path: '/blog',
-    label: 'Blog',
-  },
+  // {
+  //   path: '/blog',
+  //   label: 'Blog',
+  // },
 ];
 
 const Header = ({ bgImage }) => {

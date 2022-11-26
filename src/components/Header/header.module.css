@@ -57,10 +57,11 @@
   text-decoration: none;
   font-size: 1.5rem;
   letter-spacing: 0.05em;
-  /* display: inline-block; */
-  padding: 12px 24px;
+  line-height: 1;
+  padding: var(--padding-nav-vert) var(--padding-nav-horiz);
   color: var(--primary-100);
   transition: all 0.25s ease-in;
+  margin: var(--margin-nav-vert) 0;
 }
 
 .header-link-active,
