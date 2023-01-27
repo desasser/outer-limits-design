@@ -14,22 +14,26 @@
 }
 
 .product-list-alert {
-  padding: 20px 40px;
-  background-color: rgba(255,255,255,0.3);
+  padding: var(--padding-content) var(--padding-page-top);
+  background-color: rgba(255,255,255,0.05);
   border-radius: 2rem;
   box-shadow: 0 0 5px 5px rgba(255,255,255,0.1);
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: var(--margin-base);
 }
 
 .product-list-alert a {
-  text-decoration: none;
+  text-decoration: underline solid transparent;
   color: var(--primary-100);
-  transition: color 0.7s;
+  transition: color 0.7s, text-decoration 0.7s;
 }
 
 .product-list-alert a:hover {
   color: white;
+  text-decoration: underline solid white;
 }
 
 .product-list-grid {

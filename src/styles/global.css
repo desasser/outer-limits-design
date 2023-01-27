@@ -10,8 +10,8 @@
   --primary-100t: #3399FFe6;
   --primary-200: #f3ec78;
   --primary-300: #af4261;
-  --primary-400: #bfdfff;
-  --primary-400t: #bfdfffcc;
+  --primary-400: #e0efff;
+  --primary-400t: #e0efffcc;
   --primary-500: #091b2d;
   --light: #ffffff;
   --dark: #000000;
@@ -24,6 +24,8 @@
   --padding-nav-horiz: 24px;
 
   --margin-nav-vert: 12px;
+  --margin-base: 12px;
+  --margin-large: 24px;
 }
 
 html,
@@ -57,10 +59,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nasalization', sans-serif;
+  font-family: 'Genos', sans-serif;
+  font-weight: 700;
   margin: 4px 0;
   line-height: 1.1;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 main section {
