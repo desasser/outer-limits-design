@@ -1,9 +1,6 @@
 import styles from "./questionContent.module.css";
 
-
 const QuestionContent = ({questions}) => {
-console.log(questions, 'hi');
-
   return (
     <div className={styles['faq-wrapper']}>
       {questions.length ? 

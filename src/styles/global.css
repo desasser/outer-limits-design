@@ -30,6 +30,7 @@
   --margin-base: 12px;
   --margin-large: 24px;
   --margin-header-bottom: 36px;
+  --margin-xlarge: 48px;
 }
 
 html,
@@ -72,26 +73,6 @@ h6 {
 
 main section {
   padding: var(--padding-page-top) var(--padding-page-top) var(--padding-page-side);
-}
-
-.lunar-lander {
-  min-height: 100vh;
-}
-
-.main-gradient-primary {
-  background-color: #f3ec78;
-  background-image: linear-gradient(45deg, #f3ec78, #af4261);
-  background-image: radial-gradient(at top left, #f3ec78 10%, #af4261 65%);
-  background-image: radial-gradient(at top left, var(--light) 10%, var(--primary-100) 65%);
-  background-size: 150% 200%;
-  background-position: center;
-}
-
-.main-gradient-text {
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
 }
 
 h1 {
