@@ -3,5 +3,19 @@
 }
 
 .about-wrapper-body {
-    padding: var(--padding-content);
+    padding: var(--padding-content) var(--padding-content-side);
+    border-radius: 2rem;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-wrapper-body a {
+    color: var(--primary-100);
+    transition: color 0.7s, text-decoration 0.7s;
+    text-decoration: underline solid transparent;
+}
+
+.about-wrapper-body a:hover {
+    color: var(--light);
+    text-decoration: underline solid var(--light);
 }

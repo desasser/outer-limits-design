@@ -1,3 +1,4 @@
-.faq-wrapper {
+.faq-section {
     padding:  var(--padding-page-top) var(--padding-page-side);
+    background-color: var(--dark-background-transparent);
 }

@@ -15,17 +15,21 @@
   --primary-500: #091b2d;
   --light: #ffffff;
   --dark: #000000;
+  --dark-background-transparent: #00000080;
 
   --padding-product: 5px;
-  --padding-page-top: 40px;
-  --padding-page-side: 80px;
-  --padding-content: 20px;
+  --padding-page-top: 48px;
+  --padding-page-side: 96px;
+  --padding-content: 24px;
+  --padding-content-side: 48px;
   --padding-nav-vert: 16px;
   --padding-nav-horiz: 24px;
+  --padding-nav-bottom: 48px;
 
   --margin-nav-vert: 12px;
   --margin-base: 12px;
   --margin-large: 24px;
+  --margin-header-bottom: 36px;
 }
 
 html,
@@ -67,7 +71,7 @@ h6 {
 }
 
 main section {
-  padding: 40px 50px 80px;
+  padding: var(--padding-page-top) var(--padding-page-top) var(--padding-page-side);
 }
 
 .lunar-lander {
@@ -135,10 +139,4 @@ h6 {
   max-width: calc(100vw - 318px);
   width: 88%;
   margin-left: 300px;
-}
-
-.about-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }

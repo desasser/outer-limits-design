@@ -4,9 +4,12 @@ import AboutImage from "../AboutImage";
 
 const AboutWrapper = () => {
   return (
-    <section className="about-section">
-      <AboutContent />
-      <AboutImage />
+    <section className={styles["about-section"]}>
+      <h2 className={styles["about-header"]}>Greetings Earthling, Nice to Meet You</h2>
+      <div className={styles["about-content-section"]}>
+        <AboutImage />
+        <AboutContent />
+      </div>
     </section>
   );
 };

@@ -32,8 +32,8 @@
 }
 
 .product-list-alert a:hover {
-  color: white;
-  text-decoration: underline solid white;
+  color: var(--light);
+  text-decoration: underline solid var(--light);
 }
 
 .product-list-grid {

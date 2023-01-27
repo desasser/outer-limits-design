@@ -1,0 +1,23 @@
+.faq-content-wrapper {
+    margin: var(--margin-large) 0;
+}
+
+.faq-content-wrapper::after {
+    content: '';
+    width: 70%;
+    border-bottom: 1px solid var(--primary-400);
+    display: block;
+    transform: translateX(90%);
+    position: relative;
+    left: -50%;
+    margin-top: var(--margin-base);
+}
+
+.faq-header {
+    color: var(--primary-100);
+}
+
+.faq-text {
+    padding-left: var(--padding-content);
+    max-width: 80%;
+}

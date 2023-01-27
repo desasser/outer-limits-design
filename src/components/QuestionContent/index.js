@@ -5,12 +5,12 @@ const QuestionContent = ({questions}) => {
 console.log(questions, 'hi');
 
   return (
-    <div className="faq-question">
+    <div className={styles['faq-wrapper']}>
       {questions.length ? 
       (questions.map(({ question, answer }) => (
-        <div class="question-wrapper">
-          <h4>{question} </h4>
-          <p>{answer}</p>
+        <div className={styles['faq-content-wrapper']}>
+          <h3 className={styles['faq-header']}>{question} </h3>
+          <p className={styles['faq-text']}>{answer}</p>
         </div>
       ))
       ) : (

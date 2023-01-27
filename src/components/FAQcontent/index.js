@@ -35,7 +35,7 @@ const questions = [
 
 const FAQ = () => {
   return (
-    <section className="faq-section">
+    <section className={styles['faq-section']}>
       <QuestionContent questions={questions}/>
     </section>
   );

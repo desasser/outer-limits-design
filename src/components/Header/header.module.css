@@ -49,11 +49,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  padding-bottom: var(--padding-nav-bottom);
 }
 
 .header-link {
-  font-family: 'Nasalization', sans-serif;
-  text-transform: lowercase;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: 900;
   text-decoration: none;
   font-size: 1.5rem;
   letter-spacing: 0.05em;

@@ -12,7 +12,7 @@ const ProductList = ({ products = [] }) => {
     <section className={styles["product-list"]}>
       <h2 className={styles["product-list-title"]}>Products</h2>
       <div className={styles["product-list-alert"]}>
-        <p>If you see an item on this page you'd like or know what you want, please message me on <a href="https://www.instagram.com/outer.limits.designs/">Instagram</a> or <a href="https://www.etsy.com/shop/OuterLimitsDesigns">Etsy</a> or you can email me at <a href = "mailto:design.outerlimits@gmail.com">design.outerlimits@gmail.com</a>. Thanks!</p>
+        <p>If you see an item on this page you'd like or already know what you want, please message me on <a href="https://www.instagram.com/outer.limits.designs/">Instagram</a> or <a href="https://www.etsy.com/shop/OuterLimitsDesigns">Etsy</a> or you can email me at <a href = "mailto:design.outerlimits@gmail.com">design.outerlimits@gmail.com</a>. Thanks!</p>
       </div>
       <div className={styles["product-list-grid"]}>
         {products.length ? (
