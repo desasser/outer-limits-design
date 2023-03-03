@@ -20,7 +20,7 @@
 }
 
 .social-buttons a {
-  padding: 5px;
+  padding: var(--padding-icon-spacing);
 }
 
 .social-buttons a img {
