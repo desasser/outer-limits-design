@@ -10,7 +10,7 @@
     transform: translateX(90%);
     position: relative;
     left: -50%;
-    margin-top: var(--margin-base);
+    margin-top: var(--margin-large);
 }
 
 .faq-header {

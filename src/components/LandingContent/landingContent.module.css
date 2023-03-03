@@ -1,5 +1,5 @@
 .lunar-wrap {
-    min-height: 90vh;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -18,6 +18,6 @@
 
 .lunar-lander-two {
     position: absolute;
-    bottom: var(--margin-base);
+    bottom: var(--margin-xlarge);
     right: var(--margin-xlarge);
 }
